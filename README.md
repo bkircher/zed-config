@@ -1,1 +1,3 @@
-# zed editor config
+# zed-config
+
+[Zed](https://zed.dev/) editor config.
