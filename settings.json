@@ -36,5 +36,8 @@
     "inline_blame": {
       "enabled": false
     }
+  },
+  "terminal": {
+    "blinking": "on"
   }
 }
