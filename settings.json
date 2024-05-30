@@ -26,6 +26,9 @@
       "wrap_guides": [80],
       "soft_wrap": "none"
     },
+    "JSON": {
+      "prettier": { "allowed": true, "parser": "json" }
+    },
     "Git Commit": {
       "preferred_line_length": 72,
       "wrap_guides": [50, 72],
