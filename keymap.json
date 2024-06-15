@@ -1,0 +1,8 @@
+[
+  {
+    "context": "EmptyPane || SharedScreen || vim_operator == none && !VimWaiting && vim_mode != insert",
+    "bindings": {
+      "ctrl-r": "projects::OpenRecent"
+    }
+  }
+]
