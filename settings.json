@@ -42,5 +42,8 @@
   },
   "terminal": {
     "blinking": "on"
+  },
+  "inline_completions": {
+    "disabled_globs": [".env", "journal/*.md"]
   }
 }
