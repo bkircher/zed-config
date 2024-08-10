@@ -1,5 +1,11 @@
 [
   {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      "ctrl-p": "editor::ShowCompletions"
+    }
+  },
+  {
     "context": "EmptyPane || SharedScreen || vim_operator == none && !VimWaiting && vim_mode != insert",
     "bindings": {
       "ctrl-r": "projects::OpenRecent"
