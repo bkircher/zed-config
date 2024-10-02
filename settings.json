@@ -45,5 +45,12 @@
   },
   "inline_completions": {
     "disabled_globs": [".env", "journal/*.md"]
+  },
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
+    "version": "2"
   }
 }
