@@ -10,5 +10,12 @@
     "bindings": {
       "ctrl-r": "projects::OpenRecent"
     }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-[": "pane::GoBack",
+      "ctrl-]": "pane::GoForward"
+    }
   }
 ]
