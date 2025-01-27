@@ -35,6 +35,13 @@
       "soft_wrap": "none"
     }
   },
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "o1"
+    },
+    "version": "2"
+  },
   "git": {
     "inline_blame": {
       "enabled": false
