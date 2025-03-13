@@ -50,7 +50,7 @@
   "terminal": {
     "blinking": "on"
   },
-  "inline_completions": {
+  "edit_predictions": {
     "disabled_globs": [".env", "journal/*.md"]
   }
 }
