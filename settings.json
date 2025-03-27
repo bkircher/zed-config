@@ -7,6 +7,9 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
   "theme": "Gruvbox Dark Hard",
   "telemetry": {
     "metrics": false,
@@ -52,6 +55,7 @@
     "blinking": "on"
   },
   "edit_predictions": {
+    "mode": "subtle",
     "disabled_globs": [".env", "journal/*.md"]
   }
 }
