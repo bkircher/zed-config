@@ -57,5 +57,10 @@
   "edit_predictions": {
     "mode": "subtle",
     "disabled_globs": [".env", "journal/*.md"]
+  },
+  "completions": {
+    "words": "enabled",
+    "lsp": true,
+    "lsp_fetch_timeout_ms": 2
   }
 }
