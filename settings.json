@@ -37,8 +37,8 @@
   },
   "agent": {
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "claude-3-7-sonnet"
+      "provider": "openai",
+      "model": "gpt-4.1"
     },
     "version": "2"
   },
