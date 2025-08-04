@@ -37,10 +37,9 @@
   },
   "agent": {
     "default_model": {
-      "provider": "openai",
+      "provider": "copilot_chat",
       "model": "gpt-4.1"
-    },
-    "version": "2"
+    }
   },
   "git": {
     "inline_blame": {
