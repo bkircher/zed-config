@@ -12,6 +12,9 @@
     "metrics": false,
     "diagnostics": false
   },
+  // Disable automatic updates to avoid interrupting active terminal sessions
+  // and updates are somewhat frequent.
+  "auto_update": false,
   "vim_mode": true,
   "ui_font_size": 15,
   "buffer_font_size": 15,
