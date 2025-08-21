@@ -55,7 +55,16 @@
   },
   "edit_predictions": {
     "mode": "subtle",
-    "disabled_globs": [".env", "journal/*.md"]
+    "disabled_globs": [
+      "**/.env*",
+      "**/*.pem",
+      "**/*.key",
+      "**/*.cert",
+      "**/*.crt",
+      "**/.dev.vars",
+      "**/secrets.yml",
+      "**/*.md"
+    ]
   },
   "completions": {
     "words": "enabled",
