@@ -53,6 +53,7 @@
   "terminal": {
     "blinking": "on"
   },
+  "show_edit_predictions": false,
   "edit_predictions": {
     "mode": "subtle",
     "disabled_globs": [
