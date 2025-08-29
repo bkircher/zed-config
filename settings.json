@@ -36,6 +36,9 @@
       "preferred_line_length": 72,
       "wrap_guides": [50, 72],
       "soft_wrap": "none"
+    },
+    "Elixir": {
+      "language_servers": ["expert", "!elixir-ls", "!next-ls", "!lexical"]
     }
   },
   "agent": {
