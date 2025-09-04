@@ -43,6 +43,7 @@
     }
   },
   "agent": {
+    "default_profile": "write",
     "default_model": {
       "provider": "openai",
       "model": "gpt-5-nano"
