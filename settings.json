@@ -40,6 +40,10 @@
     "Elixir": {
       "language_servers": ["expert", "!elixir-ls", "!next-ls", "!lexical"],
       "remove_trailing_whitespace_on_save": true
+    },
+    "Lua": {
+      "remove_trailing_whitespace_on_save": true,
+      "tab_size": 2
     }
   },
   "agent": {
