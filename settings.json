@@ -40,6 +40,12 @@
       "wrap_guides": [50, 72],
       "soft_wrap": "none"
     },
+    "LaTeX": {
+      "remove_trailing_whitespace_on_save": true,
+      "ensure_final_newline_on_save": true,
+      "hard_tabs": false,
+      "tab_size": 4
+    },
     "Elixir": {
       "language_servers": ["expert", "!elixir-ls", "!next-ls", "!lexical"],
       "remove_trailing_whitespace_on_save": true
