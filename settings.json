@@ -18,6 +18,9 @@
   "vim_mode": true,
   "ui_font_size": 15,
   "buffer_font_size": 15,
+  "title_bar": {
+    "show_branch_icon": true
+  },
   "languages": {
     "Plain Text": {
       "preferred_line_length": 80,
