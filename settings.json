@@ -16,11 +16,27 @@
   // and updates are somewhat frequent.
   "auto_update": false,
   "vim_mode": true,
-  "ui_font_size": 15,
+  "buffer_font_family": "Iosevka Nerd Font Mono",
   "buffer_font_size": 15,
+  "ui_font_family": ".SystemUIFont",
+  "ui_font_size": 14,
+  "icon_theme": "Catppuccin Mocha",
+  "buffer_line_height": { "custom": 1.4 },
+  "buffer_font_weight": 300,
+  "buffer_font_features": { "calt": true },
   "title_bar": {
     "show_branch_icon": true
   },
+  "toolbar": {
+    // Depends on the day, I usually have them all disabled
+    "breadcrumbs": true,
+    "quick_actions": true,
+    "agent_review": true
+  },
+  "project_panel": { "entry_spacing": "standard" },
+  "tabs": { "file_icons": false },
+  "current_line_highlight": "none",
+  "format_on_save": "off",
   "languages": {
     "Plain Text": {
       "preferred_line_length": 80,
@@ -75,7 +91,10 @@
     "hunk_style": "unstaged_hollow"
   },
   "terminal": {
-    "blinking": "on"
+    "blinking": "on",
+    "font_family": "Iosevka Nerd Font Mono",
+    "font_size": 15,
+    "font_weight": 300
   },
   "show_edit_predictions": false,
   "edit_predictions": {
