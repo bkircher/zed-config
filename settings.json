@@ -35,6 +35,11 @@
     "JSON": {
       "prettier": { "allowed": true, "parser": "json" }
     },
+    "YAML": {
+      "prettier": { "allowed": true },
+      "hard_tabs": false,
+      "tab_size": 2
+    },
     "Git Commit": {
       "preferred_line_length": 72,
       "wrap_guides": [50, 72],
