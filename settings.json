@@ -92,6 +92,7 @@
   },
   "terminal": {
     "blinking": "on",
+    "font_features": { "calt": true },
     "font_family": "Iosevka Nerd Font Mono",
     "font_size": 15,
     "font_weight": 300
