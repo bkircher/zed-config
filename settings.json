@@ -7,7 +7,7 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "theme": "Neovim default dark",
+  "theme": "Everforest Dark Hard",
   "telemetry": {
     "metrics": false,
     "diagnostics": false
@@ -35,6 +35,9 @@
   },
   "project_panel": { "entry_spacing": "standard" },
   "tabs": { "file_icons": false },
+  "scrollbar": {
+    "show": "always"
+  },
   "current_line_highlight": "none",
   "format_on_save": "off",
   "languages": {
@@ -98,7 +101,7 @@
     "font_weight": 300
   },
   // Still experimenting. Don't like any of them much.
-  // "show_edit_predictions": false,
+  "show_edit_predictions": false,
   "edit_predictions": {
     "mode": "eager",
     "disabled_globs": [
