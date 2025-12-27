@@ -1,0 +1,6 @@
+[
+  {
+    "label": "Deno: Format Current File",
+    "command": "deno fmt \"$ZED_FILE\""
+  }
+]
