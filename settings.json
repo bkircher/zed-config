@@ -101,6 +101,7 @@
     "font_weight": 300
   },
   // Still experimenting. Don't like any of them much.
+  "disable_ai": true,
   "show_edit_predictions": false,
   "edit_predictions": {
     "mode": "eager",
