@@ -15,7 +15,7 @@
   },
   "telemetry": {
     "metrics": false,
-    "diagnostics": false
+    "diagnostics": false,
   },
   // Disable automatic updates to avoid interrupting active terminal sessions
   // and updates are somewhat frequent.
@@ -30,18 +30,18 @@
   "buffer_font_weight": 300,
   "buffer_font_features": { "calt": true },
   "title_bar": {
-    "show_branch_icon": true
+    "show_branch_icon": true,
   },
   "toolbar": {
     // Depends on the day, I usually have them all disabled
     "breadcrumbs": true,
     "quick_actions": true,
-    "agent_review": true
+    "agent_review": true,
   },
   "project_panel": { "entry_spacing": "standard" },
   "tabs": { "file_icons": false },
   "scrollbar": {
-    "show": "always"
+    "show": "always",
   },
   "current_line_highlight": "none",
   "format_on_save": "off",
@@ -49,61 +49,61 @@
     "Plain Text": {
       "preferred_line_length": 80,
       "wrap_guides": [80],
-      "soft_wrap": "none"
+      "soft_wrap": "none",
     },
     "Markdown": {
       "preferred_line_length": 80,
       "wrap_guides": [80],
-      "soft_wrap": "editor_width"
+      "soft_wrap": "editor_width",
     },
     "JSON": {
-      "prettier": { "allowed": true, "parser": "json" }
+      "prettier": { "allowed": true, "parser": "json" },
     },
     "YAML": {
       "prettier": { "allowed": true },
       "hard_tabs": false,
-      "tab_size": 2
+      "tab_size": 2,
     },
     "Git Commit": {
       "preferred_line_length": 72,
       "wrap_guides": [50, 72],
-      "soft_wrap": "none"
+      "soft_wrap": "none",
     },
     "LaTeX": {
       "hard_tabs": false,
-      "tab_size": 4
+      "tab_size": 4,
     },
     "Elixir": {
-      "language_servers": ["expert", "!elixir-ls", "!next-ls", "!lexical"]
+      "language_servers": ["expert", "!elixir-ls", "!next-ls", "!lexical"],
     },
     "Lua": {
-      "tab_size": 2
-    }
+      "tab_size": 2,
+    },
   },
   "agent": {
     "default_profile": "write",
     "default_model": {
       "provider": "openai",
-      "model": "gpt-5-nano"
-    }
+      "model": "gpt-5-nano",
+    },
   },
   "agent_servers": {
     "gemini": {
-      "ignore_system_version": false
-    }
+      "ignore_system_version": false,
+    },
   },
   "git": {
     "inline_blame": {
-      "enabled": false
+      "enabled": false,
     },
-    "hunk_style": "unstaged_hollow"
+    "hunk_style": "unstaged_hollow",
   },
   "terminal": {
     "blinking": "on",
     "font_features": { "calt": true },
     "font_family": "Iosevka Nerd Font Mono",
     "font_size": 15,
-    "font_weight": 300
+    "font_weight": 300,
   },
   // Still experimenting. Don't like any of them much.
   "disable_ai": true,
@@ -118,12 +118,12 @@
       "**/*.crt",
       "**/.dev.vars",
       "**/secrets.yml",
-      "**/*.md"
-    ]
+      "**/*.md",
+    ],
   },
   "completions": {
     "words": "enabled",
     "lsp": true,
-    "lsp_fetch_timeout_ms": 2
-  }
+    "lsp_fetch_timeout_ms": 2,
+  },
 }
