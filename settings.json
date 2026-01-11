@@ -8,6 +8,11 @@
 // from the command palette or from `Zed` application menu.
 {
   "theme": "Everforest Dark Hard",
+  "theme_overrides": {
+    "Everforest Dark Hard": {
+      "search.match_background": "#ffcc0080",
+    },
+  },
   "telemetry": {
     "metrics": false,
     "diagnostics": false
