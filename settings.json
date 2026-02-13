@@ -10,7 +10,7 @@
   "theme": "Everforest Dark Hard",
   "theme_overrides": {
     "Everforest Dark Hard": {
-      "search.match_background": "#ffcc0080",
+      "search.match_background": "#e67e81",
     },
   },
   "telemetry": {
