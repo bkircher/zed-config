@@ -2,20 +2,20 @@
   {
     "context": "Editor && vim_mode == insert",
     "bindings": {
-      "ctrl-p": "editor::ShowCompletions"
-    }
+      "ctrl-p": "editor::ShowCompletions",
+    },
   },
   {
     "context": "EmptyPane || SharedScreen || vim_operator == none && !VimWaiting && vim_mode != insert",
     "bindings": {
-      "ctrl-r": "projects::OpenRecent"
-    }
+      "ctrl-r": "projects::OpenRecent",
+    },
   },
   {
     "context": "Editor",
     "bindings": {
       "ctrl-[": "pane::GoBack",
-      "ctrl-]": "pane::GoForward"
-    }
-  }
+      "ctrl-]": "pane::GoForward",
+    },
+  },
 ]
