@@ -1,30 +1,19 @@
 # AGENTS.md
 
-## Repository Overview
-
 This is a configuration repository for the Zed editor. It contains settings,
-keymaps, and tasks that customize the Zed development environment.
+keymaps, and tasks that customize the Zed editor.
 
-## Repository Structure
+## Repository structure
 
 - `settings.json` - Main configuration file with editor preferences, language
   settings, agent configuration, and UI customization
-- `keymap.json` - Custom keyboard shortcuts and vim mode bindings
+- `keymap.json` - Custom keyboard shortcuts and Vim mode bindings
 - `tasks.json` - Custom tasks for the task runner
 
-## Modifying Configuration
+## Modifying configuration
 
-When editing `settings.json`:
-
-- The file uses JSON with comments
-- Preserve existing structure and comments
-- The edit predictions `disabled_globs` list protects sensitive files from AI
-  editing
-- Agent configuration includes both default model settings and per-provider
-  server settings
-
-When editing `keymap.json`:
-
-- Uses context-based binding system
-- Existing bindings are vim-mode aware with specific contexts
-
+- All JSON files include comments
+- When editing, preserve existing structure and comments
+- Fetch reference docs for `settings.json` to verify correct keys and values:
+  <https://zed.dev/docs/reference/all-settings>
+- When editing `keymap.json`, use the context-based binding system
