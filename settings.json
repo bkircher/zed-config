@@ -81,17 +81,19 @@
       "tab_size": 2,
     },
   },
+  // Agent config: https://zed.dev/docs/ai/external-agents
   "agent": {
+    "inline_assistant_model": {
+      "provider": "copilot_chat",
+      "model": "gemini-3.1-pro-preview",
+      "enable_thinking": false
+    },
     "default_profile": "write",
     "default_model": {
-      "provider": "openai",
-      "model": "gpt-5-nano",
-    },
-  },
-  "agent_servers": {
-    "gemini-custom": {
-      "type": "custom",
-      "command": "gemini",
+      "enable_thinking": true,
+      "effort": "high",
+      "provider": "copilot_chat",
+      "model": "gemini-3.1-pro-preview",
     },
   },
   "git": {
