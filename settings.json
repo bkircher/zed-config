@@ -106,6 +106,12 @@
     "font_family": "Iosevka Nerd Font Mono",
     "font_size": 15,
     "font_weight": 300,
+    "shell": {
+      "with_arguments": {
+        "program": "/opt/homebrew/bin/zsh",
+        "args": ["-i"],
+      },
+    },
   },
   // Still experimenting. Don't like any of them much.
   "disable_ai": false,
