@@ -7,6 +7,7 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "autosave": "on_focus_change",
   "theme": "Everforest Dark Hard",
   "theme_overrides": {
     "Everforest Dark Hard": {
@@ -88,8 +89,9 @@
     },
   },
   "agent_servers": {
-    "gemini": {
-      "ignore_system_version": false,
+    "gemini-custom": {
+      "type": "custom",
+      "command": "gemini",
     },
   },
   "git": {
@@ -106,7 +108,7 @@
     "font_weight": 300,
   },
   // Still experimenting. Don't like any of them much.
-  "disable_ai": true,
+  "disable_ai": false,
   "show_edit_predictions": false,
   "edit_predictions": {
     "mode": "eager",
