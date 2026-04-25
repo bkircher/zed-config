@@ -1,6 +1,10 @@
 [
   {
-    "label": "Deno: Format Current File",
+    "label": "deno: format current file",
     "command": "deno fmt \"$ZED_FILE\"",
+  },
+  {
+    "label": "unicode: show selected codepoint",
+    "command": "printf '%s' \"$ZED_SELECTED_TEXT\" | ~/bin/unicode-codepoint",
   },
 ]
