@@ -94,9 +94,9 @@
   "agent": {
     "dock": "right",
     "inline_assistant_model": {
-      "provider": "copilot_chat",
-      "model": "gemini-3.1-pro-preview",
-      "enable_thinking": false
+      "provider": "lmstudio",
+      "model": "google/gemma-4-e4b",
+      "enable_thinking": false,
     },
     "default_profile": "write",
     "default_model": {
@@ -105,6 +105,11 @@
       "provider": "copilot_chat",
       "model": "gemini-3.1-pro-preview",
     },
+  },
+  "agent_servers": {
+    "codex-acp": {
+      "type": "registry"
+    }
   },
   "git": {
     "inline_blame": {
@@ -127,9 +132,10 @@
   },
   // Still experimenting. Don't like any of them much.
   "disable_ai": false,
-  "show_edit_predictions": false,
+  "show_edit_predictions": true,
   "edit_predictions": {
-    "mode": "eager",
+    "provider": "copilot",
+    "mode": "subtle",
     "disabled_globs": [
       "**/.env*",
       "**/*.pem",
