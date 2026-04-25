@@ -7,6 +7,15 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
   "autosave": "on_focus_change",
   "theme": "Everforest Dark Hard",
   "theme_overrides": {
@@ -31,7 +40,6 @@
   "buffer_font_weight": 300,
   "buffer_font_features": { "calt": true },
   "title_bar": {
-    "show_branch_icon": true,
   },
   "toolbar": {
     // Depends on the day, I usually have them all disabled
@@ -39,7 +47,8 @@
     "quick_actions": true,
     "agent_review": true,
   },
-  "project_panel": { "entry_spacing": "standard" },
+  "project_panel": { "dock": "left",
+                     "entry_spacing": "standard" },
   "tabs": { "file_icons": false },
   "scrollbar": {
     "show": "always",
@@ -83,6 +92,7 @@
   },
   // Agent config: https://zed.dev/docs/ai/external-agents
   "agent": {
+    "dock": "right",
     "inline_assistant_model": {
       "provider": "copilot_chat",
       "model": "gemini-3.1-pro-preview",
