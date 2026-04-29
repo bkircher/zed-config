@@ -17,7 +17,7 @@
     "dock": "left"
   },
   "autosave": "on_focus_change",
-  "theme": "Everforest Dark Hard",
+  "theme": "Everforest Dark Hard (material)",
   "theme_overrides": {
     "Everforest Dark Hard": {
       "search.match_background": "#e67e81",
