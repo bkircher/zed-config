@@ -1,8 +1,8 @@
 # zed-config
 
-[Zed](https://zed.dev/) editor config.
+Configuration for the [Zed](https://zed.dev/) editor.
 
-Clone this repo:
+Clone this repository:
 
     $ git clone git@github.com:bkircher/zed-config.git ~/.config/zed
 
