@@ -1,5 +1,12 @@
 [
   {
+    "context": "Editor && showing_completions && vim_mode == insert",
+    "bindings": {
+      "enter": "editor::Newline",
+      "ctrl-enter": "editor::ConfirmCompletion",
+    },
+  },
+  {
     "context": "Editor && vim_mode == insert",
     "bindings": {
       "ctrl-p": "editor::ShowCompletions",

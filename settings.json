@@ -79,6 +79,7 @@
       "preferred_line_length": 80,
       "wrap_guides": [80],
       "soft_wrap": "editor_width",
+      "show_completions_on_input": false,
     },
     "JSON": {
       "prettier": { "allowed": true, "parser": "json" },
