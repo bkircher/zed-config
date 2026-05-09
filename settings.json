@@ -6,18 +6,27 @@
 // To see all of Zed's default settings without changing your
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
+//
+// See:
+// - https://zed.dev/docs/reference/all-settings
+// - https://zed.dev/docs/ai/edit-prediction
+// - https://zed.dev/docs/ai/agent-settings
 {
   "outline_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "collaboration_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "git_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "autosave": "on_focus_change",
-  "theme": "Everforest Dark Hard (material)",
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Everforest Dark Hard (material)",
+  },
   "theme_overrides": {
     "Everforest Dark Hard": {
       "search.match_background": "#e67e81",
@@ -31,24 +40,28 @@
   // and updates are somewhat frequent.
   "auto_update": false,
   "vim_mode": true,
+  //"relative_line_numbers": "enabled",
+  "use_smartcase_search": true,
   "buffer_font_family": "Iosevka Nerd Font Mono",
   "buffer_font_size": 15,
   "ui_font_family": ".SystemUIFont",
   "ui_font_size": 14,
-  "icon_theme": "Catppuccin Mocha",
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Catppuccin Mocha",
+    "dark": "Catppuccin Mocha",
+  },
   "buffer_line_height": { "custom": 1.4 },
   "buffer_font_weight": 300,
   "buffer_font_features": { "calt": true },
-  "title_bar": {
-  },
+  "title_bar": {},
   "toolbar": {
     // Depends on the day, I usually have them all disabled
     "breadcrumbs": true,
     "quick_actions": true,
     "agent_review": true,
   },
-  "project_panel": { "dock": "left",
-                     "entry_spacing": "standard" },
+  "project_panel": { "dock": "left", "entry_spacing": "standard" },
   "tabs": { "file_icons": false },
   "scrollbar": {
     "show": "always",
@@ -106,11 +119,13 @@
       "provider": "copilot_chat",
       "model": "gemini-3.1-pro-preview",
     },
+    "use_modifier_to_send": true,
+    "expand_terminal_card": false,
   },
   "agent_servers": {
     "codex-acp": {
-      "type": "registry"
-    }
+      "type": "registry",
+    },
   },
   "git": {
     "inline_blame": {
@@ -146,11 +161,12 @@
       "**/.dev.vars",
       "**/secrets.yml",
       "**/*.md",
+      "**/*.txt",
     ],
   },
+  "redact_private_values": true,
   "completions": {
-    "words": "enabled",
+    "words": "fallback",
     "lsp": true,
-    "lsp_fetch_timeout_ms": 2,
   },
 }
