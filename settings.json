@@ -69,6 +69,9 @@
   "current_line_highlight": "none",
   "format_on_save": "off",
   "cli_default_open_behavior": "new_window",
+  "file_types": {
+    "Scheme": ["sb"],
+  },
   "languages": {
     "Plain Text": {
       "preferred_line_length": 80,
