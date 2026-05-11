@@ -92,6 +92,15 @@
       "hard_tabs": false,
       "tab_size": 2,
     },
+    "JavaScript": {
+      "language_servers": ["!eslint", "..."],
+    },
+    "TypeScript": {
+      "language_servers": ["!eslint", "..."],
+    },
+    "TSX": {
+      "language_servers": ["!eslint", "..."],
+    },
     "Git Commit": {
       "preferred_line_length": 72,
       "wrap_guides": [50, 72],
