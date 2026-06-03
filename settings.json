@@ -182,7 +182,7 @@
       "**/*.txt",
     ],
   },
-  "redact_private_values": true,
+  "redact_private_values": false,
   "completions": {
     "words": "fallback",
     "lsp": true,
