@@ -152,6 +152,11 @@
     "font_family": "Iosevka Nerd Font Mono",
     "font_size": 15,
     "font_weight": 300,
+    // That's just cosmetics. We are really using Homebrew zsh anyway. Checked
+    // with `ps -p $$ -o comm=`
+    "env": {
+      "SHELL": "/opt/homebrew/bin/zsh",
+    },
     "shell": {
       "with_arguments": {
         "program": "/opt/homebrew/bin/zsh",
