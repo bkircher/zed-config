@@ -157,10 +157,11 @@
     "env": {
       "SHELL": "/opt/homebrew/bin/zsh",
     },
+    // Enforce a login shell since we want .zprofile to be loaded
     "shell": {
       "with_arguments": {
         "program": "/opt/homebrew/bin/zsh",
-        "args": ["-i"],
+        "args": ["-il"],
       },
     },
   },
