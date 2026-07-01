@@ -119,6 +119,7 @@
   },
   // Agent config: https://zed.dev/docs/ai/external-agents
   "agent": {
+    "terminal_init_command": "pi-sandbox",
     "dock": "right",
     "inline_assistant_model": {
       "provider": "lmstudio",
