@@ -25,4 +25,9 @@
       "ctrl-]": "pane::GoForward",
     },
   },
+  {
+    "bindings": {
+      "ctrl-cmd-t": "text_finder::Toggle",
+    },
+  },
 ]
