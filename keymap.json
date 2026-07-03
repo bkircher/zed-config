@@ -27,7 +27,8 @@
   },
   {
     "bindings": {
-      "ctrl-cmd-t": "text_finder::Toggle",
+      "cmd-alt-k": "text_finder::Toggle",
+      "cmd-alt-l": "workspace::ToggleRightDock",
     },
   },
 ]
