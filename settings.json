@@ -46,6 +46,7 @@
   "buffer_font_size": 15,
   "ui_font_family": ".SystemUIFont",
   "ui_font_size": 14,
+  "markdown_preview_font_size": 17,
   "icon_theme": {
     "mode": "dark",
     "light": "Catppuccin Mocha",
