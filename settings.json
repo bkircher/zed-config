@@ -42,9 +42,12 @@
   "vim_mode": true,
   //"relative_line_numbers": "enabled",
   "use_smartcase_search": true,
-  "buffer_font_family": "Iosevka Nerd Font Mono",
+  "buffer_font_family": "FiraMono Nerd Font Mono",
   "buffer_font_size": 15,
-  "ui_font_family": ".SystemUIFont",
+  "buffer_line_height": { "custom": 1.4 },
+  "buffer_font_weight": 300,
+  "buffer_font_features": { "calt": true },
+  "ui_font_family": "FiraCode Nerd Font Propo",
   "ui_font_size": 14,
   "markdown_preview_font_size": 17,
   "icon_theme": {
@@ -52,9 +55,6 @@
     "light": "Catppuccin Mocha",
     "dark": "Catppuccin Mocha",
   },
-  "buffer_line_height": { "custom": 1.4 },
-  "buffer_font_weight": 300,
-  "buffer_font_features": { "calt": true },
   "title_bar": {},
   "toolbar": {
     // Depends on the day, I usually have them all disabled
@@ -151,7 +151,7 @@
   "terminal": {
     "blinking": "on",
     "font_features": { "calt": true },
-    "font_family": "Iosevka Nerd Font Mono",
+    "font_family": "FiraMono Nerd Font Mono",
     "font_size": 15,
     "font_weight": 300,
     // That's just cosmetics. We are really using Homebrew zsh anyway. Checked
