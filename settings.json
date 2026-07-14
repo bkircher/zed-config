@@ -28,8 +28,8 @@
     "dark": "Everforest Dark Soft (regular)",
   },
   "theme_overrides": {
-    "Everforest Dark Hard": {
-      "search.match_background": "#e67e81",
+    "Everforest Dark Soft (regular)": {
+      "search.match_background": "#a7c080",
     },
   },
   "telemetry": {
