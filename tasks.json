@@ -1,7 +1,7 @@
 [
   {
-    "label": "deno: format current file",
-    "command": "deno fmt \"$ZED_FILE\"",
+    "label": "hongdown: format current file",
+    "command": "hongdown --write \"$ZED_FILE\"",
   },
   {
     "label": "unicode: show selected codepoint",

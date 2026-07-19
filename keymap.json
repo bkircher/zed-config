@@ -13,6 +13,12 @@
     },
   },
   {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "\\ f": ["task::Spawn", { "task_name": "hongdown: format current file" }],
+    },
+  },
+  {
     "context": "EmptyPane || SharedScreen || vim_operator == none && !VimWaiting && vim_mode != insert",
     "bindings": {
       "ctrl-r": "projects::OpenRecent",
