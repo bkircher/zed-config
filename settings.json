@@ -132,7 +132,7 @@
       "enable_thinking": true,
       "effort": "high",
       "provider": "copilot_chat",
-      "model": "gemini-3.1-pro-preview",
+      "model": "gpt-5.6-terra",
     },
     "use_modifier_to_send": true,
     "expand_terminal_card": false,
