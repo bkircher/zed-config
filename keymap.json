@@ -15,7 +15,7 @@
   {
     "context": "Editor && vim_mode == normal",
     "bindings": {
-      "\\ f": ["task::Spawn", { "task_name": "hongdown: format current file" }],
+      "\\ c f": ["task::Spawn", { "task_name": "hongdown: format current file" }],
     },
   },
   {
