@@ -22,6 +22,9 @@
     "dock": "left",
   },
   "autosave": "on_focus_change",
+  "journal": {
+    "hour_format": "hour24",
+  },
   "theme": {
     "mode": "dark",
     "light": "One Light",
