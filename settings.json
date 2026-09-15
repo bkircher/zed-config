@@ -172,7 +172,7 @@
   },
   // Still experimenting. Don't like any of them much.
   "disable_ai": false,
-  "show_edit_predictions": true,
+  "show_edit_predictions": false,
   "edit_predictions": {
     "provider": "copilot",
     "mode": "subtle",
