@@ -28,7 +28,7 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Everforest Dark Soft (regular)",
+    "dark": "Everforest Dark Hard (material)",
   },
   "theme_overrides": {
     "Everforest Dark Soft (regular)": {
