@@ -12,6 +12,9 @@
 // - https://zed.dev/docs/ai/edit-prediction
 // - https://zed.dev/docs/ai/agent-settings
 {
+  "markdown_preview": {
+    "font_size": 17
+  },
   "outline_panel": {
     "dock": "left",
   },
@@ -52,7 +55,6 @@
   "buffer_font_features": { "calt": true },
   "ui_font_family": ".SystemUIFont",
   "ui_font_size": 14,
-  "markdown_preview_font_size": 17,
   "icon_theme": {
     "mode": "dark",
     "light": "Catppuccin Mocha",
