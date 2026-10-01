@@ -29,13 +29,18 @@
     "hour_format": "hour24",
   },
   "theme": {
-    "mode": "dark",
+    "mode": "light",
     "light": "One Light",
     "dark": "Everforest Dark Hard (material)",
   },
   "theme_overrides": {
     "Everforest Dark Soft (regular)": {
       "search.match_background": "#a7c080",
+    },
+    "One Light": {
+      "players": [
+        { "cursor": "#EA6138" },
+      ],
     },
   },
   "telemetry": {
