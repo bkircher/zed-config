@@ -29,12 +29,12 @@
     "hour_format": "hour24",
   },
   "theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "One Light",
-    "dark": "Everforest Dark Hard (material)",
+    "dark": "Everforest Dark Soft (material)",
   },
   "theme_overrides": {
-    "Everforest Dark Soft (regular)": {
+    "Everforest Dark Soft (material)": {
       "search.match_background": "#a7c080",
     },
     "One Light": {
